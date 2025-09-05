@@ -15,6 +15,7 @@ include_once "../Estructura/cabecera.php";
                             <div class="form-group">
                                 <label class="form-label" for="titulo">Titulo</label>
                                 <input class="form-control" type="text" name="titulo" id="titulo" />
+                                <div class="invalid-feedback" id="errorTitulo"></div>
                             </div>
                             <div class="form-group">
                                 <label class="form-label" for="director">Director</label>
@@ -104,3 +105,4 @@ include_once "../Estructura/cabecera.php";
         </div>
     </div>
 </div>
+<script src="validacion-cinema.js"></script>    
