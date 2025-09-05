@@ -66,7 +66,8 @@ if (!form) {
         }
 
         // Validar año (debe ser número)
-        if (anio.value.trim() === '' || isNaN(anio.value)) {
+        const anioActual = new Date().getFullYear();
+        if (anio.value.trim() === '' || isNaN(anio.value)||anio.value < 1900|| anio.value > anioActual) {
             valid = false;
             anio.classList.add('is-invalid');
         } else {
