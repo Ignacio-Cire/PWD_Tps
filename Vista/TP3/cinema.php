@@ -108,3 +108,4 @@ include_once "../Estructura/cabecera.php";
         </div>
     </div>
 </div>
+<script src="../TP2/validacion-cinema.js"></script>

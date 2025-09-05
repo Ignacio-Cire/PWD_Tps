@@ -108,6 +108,17 @@ if (!form) {
         } else {
             sinopsis.classList.remove('is-invalid');
         }
+        const archivo = document.getElementById('upload');
+            if (archivo) {
+                const filePath = archivo.value;
+                const allowedExtensions = /(\.jpg|\.jpeg|\.png|\.gif)$/i;
+                if (!allowedExtensions.exec(filePath)) {
+                    valid = false;
+                    archivo.classList.add('is-invalid');
+                } else {
+                    archivo.classList.remove('is-invalid');
+                }
+            }
 
         // Si todo es válido, enviar el formulario
         if (valid) {
