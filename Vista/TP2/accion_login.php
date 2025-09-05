@@ -1,6 +1,6 @@
 <?php
-include_once "../estructura/cabecera.php";
-include_once "../../utiles/funciones.php";
+include_once "../Estructura/cabecera.php";
+
 
 
 $datos = data_submitted();
