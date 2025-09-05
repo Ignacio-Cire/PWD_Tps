@@ -13,15 +13,14 @@ $usuarios = [
 // Verificar credenciales
 $acceso = false;
 foreach ($usuarios as $user) {
-    if ($user["usuario"] === $datos["usuario"] && $user["clave"] === $datos["clave"]) {
+    if ($user["usuario"] == $datos["user"] && $user["clave"] == $datos["password"]) {
         $acceso = true;
         break;
     }
 }
-
 // Mostrar resultado
 if ($acceso) {
-    echo "Bienvenido " . $datos["usuario"];
+    echo "Bienvenido " . $datos["user"];
 } else {
     echo "Error: Usuario o contraseña incorrectos";
 }

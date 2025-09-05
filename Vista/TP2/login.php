@@ -1,21 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- bootstrap -->
-    <link rel="stylesheet" href="../css/bootstrap-5.3.3/bootstrap.min.css"/>
-
-    <!-- JS -->
-    <script src="../Js/jquery/jquery.min.js" ></script>
-    <!-- C:\xampp\htdocs\TP_PWD\Vista\Js\jquery\jquery-3.7.1.slim.min.js -->
-     <script src="../Js/jquery/jquery.validate.min.js" ></script>
-    <script src="../Js/validacion/validate.js" ></script>
-
-
-    <title>Login</title>
-</head>
-<body>
+<?php
+include_once "../Estructura/cabecera.php";
+?>
     
 <div class="container position-relative">
     <div class="card p-3 text-bg-secondary mx-auto my-2" style="width: 30rem;">
