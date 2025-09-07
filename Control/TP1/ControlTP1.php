@@ -45,9 +45,7 @@ class ControlTP1{
 
         
         
-        /* 
-        $salida = "Hola, yo soy ".$datos['nombre'].", ".$datos['apellido']." tengo ".$datos['edad']." años y vivo en ". $datos['direccion']; 
-        */
+       
 
         return $salida;
     }

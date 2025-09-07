@@ -1,15 +1,12 @@
 <?php
 include_once "../Estructura/cabecera.php";
-//include_once ("../../Control/TP1/control_tp1.php");
+
 
 $datos = $_POST;
 $control = new ControlTP1();
 
 $salida = $control->ejercicio3($datos);
 
-/* echo "".$salida; */
-/* echo "Hola, yo soy ".$datos['nombre'].", ".$datos['apellido']." tengo ".$datos['edad']." años y vivo en ". $datos['direccion'];
- */
 ?>
 <div class="row justify-content-center">
     <div class="col-md-6">

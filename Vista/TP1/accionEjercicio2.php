@@ -1,6 +1,6 @@
 <?php
 include_once "../Estructura/cabecera.php";
-//include_once ("../../Control/TP1/control_tp1.php");
+
 
 $datos = $_POST;
 $objControl = new ControlTP1();
@@ -10,14 +10,6 @@ $salida = $objControl->ejercicio2($datos);
 
 
 
-/* echo '<a type="btn" href="Ejercicio2.php">Volver</a>'; */
-
-/* $suma=0;
-foreach($datos['semana'] as $dias){
-    $suma = $suma + $dias;
-    } 
-    echo $suma. " horas ";
-    */
     
     
 ?>

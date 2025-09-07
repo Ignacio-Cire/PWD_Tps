@@ -1,7 +1,7 @@
 <?php
 include_once "../Estructura/cabecera.php";
 include_once "../../utiles/funciones.php";
-//include_once "../../Control/TP1/ControlTP1.php";
+
 $datos = data_submitted();
 $control = new ControlTP1();
 $salida = $control->ejercicio5($datos);

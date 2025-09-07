@@ -1,12 +1,11 @@
 <?php
 include_once "../Estructura/cabecera.php";
-//include_once "../../Control/TP1/control_tp1.php";
+
 
 $datos = $_POST;
 $control = new ControlTP1();
 $salida = $control->ejercicio4($datos);
 
-/* echo $salida; */
 ?>
 
 <div class="row justify-content-center">
